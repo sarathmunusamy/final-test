@@ -165,4 +165,15 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<repositories>
+    <repository>
+      <id>your-internal-repo</id>
+      <url>http://beefy.myorg.local:8081/nexus/content/</url>
+    </repository>
+
+    <repository>
+      <id>mvnrepository</id>
+      <url>http://mvnrepository.com/artifact/</url>
+    </repository>
+  </repositories>
 </project>
